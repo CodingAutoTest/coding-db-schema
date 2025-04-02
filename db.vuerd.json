@@ -4,8 +4,8 @@
   "settings": {
     "width": 4000,
     "height": 4000,
-    "scrollTop": -567.9942,
-    "scrollLeft": -1849.268,
+    "scrollTop": -1361.9942,
+    "scrollLeft": -1089.268,
     "zoomLevel": 1,
     "show": 511,
     "database": 4,
@@ -1339,18 +1339,18 @@
         "tableId": "F38dRnWnXHqmReNXHtPfx",
         "name": "start_date",
         "comment": "구독 시작 날짜",
-        "dataType": "TIMESTAMP",
+        "dataType": "DATETIME",
         "default": "",
         "options": 8,
         "ui": {
           "keys": 0,
           "widthName": 60,
           "widthComment": 71,
-          "widthDataType": 71,
+          "widthDataType": 61,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1743493535490,
+          "updateAt": 1743576154266,
           "createAt": 1743493026593
         }
       },
@@ -1359,18 +1359,18 @@
         "tableId": "F38dRnWnXHqmReNXHtPfx",
         "name": "end_date",
         "comment": "종료날짜",
-        "dataType": "",
+        "dataType": "DATETIME",
         "default": "",
         "options": 8,
         "ui": {
           "keys": 0,
           "widthName": 60,
           "widthComment": 60,
-          "widthDataType": 60,
+          "widthDataType": 61,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1743493724979,
+          "updateAt": 1743576158549,
           "createAt": 1743493026757
         }
       },
@@ -1379,9 +1379,9 @@
         "tableId": "F38dRnWnXHqmReNXHtPfx",
         "name": "auto_renewal",
         "comment": "자동갱신 여부",
-        "dataType": "",
+        "dataType": "BOOLEAN",
         "default": "",
-        "options": 0,
+        "options": 8,
         "ui": {
           "keys": 0,
           "widthName": 78,
@@ -1390,7 +1390,7 @@
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1743493728645,
+          "updateAt": 1743576162772,
           "createAt": 1743493026942
         }
       },
@@ -2211,7 +2211,7 @@
           "columnIds": [
             "x-GUIH3TifMyYQz57vZDt"
           ],
-          "x": 1452.5889,
+          "x": 1447.5889,
           "y": 1383.863,
           "direction": 4
         },
@@ -2267,7 +2267,7 @@
           "columnIds": [
             "rmYJ1zp7CMCL9_UY4vsoc"
           ],
-          "x": 1452.5889,
+          "x": 1447.5889,
           "y": 1583.863,
           "direction": 8
         },
@@ -3033,7 +3033,7 @@
       -1,
       {
         "name": 1743493535489,
-        "dataType": 1743493136315,
+        "dataType": 1743576154265,
         "options(notNull)": 1743493137520,
         "comment": 1743493152795
       }
@@ -3045,7 +3045,8 @@
       {
         "name": 1743493543539,
         "options(notNull)": 1743493548539,
-        "comment": 1743493724979
+        "comment": 1743493724979,
+        "dataType": 1743576158548
       }
     ],
     "ZUQjfVBwRmsXqC1SV-XDO": [
@@ -3054,7 +3055,9 @@
       -1,
       {
         "name": 1743493555699,
-        "comment": 1743493728645
+        "comment": 1743493728645,
+        "dataType": 1743576162117,
+        "options(notNull)": 1743576162771
       }
     ],
     "x-GUIH3TifMyYQz57vZDt": [
