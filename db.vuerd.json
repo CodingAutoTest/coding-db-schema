@@ -4,8 +4,8 @@
   "settings": {
     "width": 4000,
     "height": 4000,
-    "scrollTop": -1073.3474,
-    "scrollLeft": -2146,
+    "scrollTop": -1157.3474,
+    "scrollLeft": -1973,
     "zoomLevel": 0.88,
     "show": 511,
     "database": 4,
@@ -605,20 +605,20 @@
       "fH54d3Ju8ZfJvSVdV3WSd": {
         "id": "fH54d3Ju8ZfJvSVdV3WSd",
         "tableId": "VRURm6OqV8q34jBUJOgap",
-        "name": "preminum_status",
+        "name": "premium_status",
         "comment": "프리미엄 구독 상태",
         "dataType": "BOOLEAN",
         "default": "",
         "options": 8,
         "ui": {
           "keys": 0,
-          "widthName": 100,
+          "widthName": 93,
           "widthComment": 92,
           "widthDataType": 60,
           "widthDefault": 60
         },
         "meta": {
-          "updateAt": 1743493184574,
+          "updateAt": 1744788399731,
           "createAt": 1743393811628
         }
       },
@@ -3138,7 +3138,7 @@
       1743393811628,
       -1,
       {
-        "name": 1743393844214,
+        "name": 1744788399731,
         "dataType": 1743393849531,
         "options(notNull)": 1743393850592,
         "comment": 1743493184574
